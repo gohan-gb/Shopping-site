@@ -1,0 +1,28 @@
+.mainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.mainDiv .mainContent {
+    border: 0.5px #d4a0a7 solid;
+    padding: 40px;
+    background-image: url(https://images.pexels.com/photos/4348403/pexels-photo-4348403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.mainDiv .mainContent .bg article {
+    word-spacing: 20px;
+    font-family: monospace;
+    font-weight: 700;
+    font-style: italic;
+    font-size: xx-large;
+    color: azure;
+    padding: 20px;
+}
+.bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}

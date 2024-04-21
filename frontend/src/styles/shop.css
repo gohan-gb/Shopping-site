@@ -1,0 +1,36 @@
+.image {
+    background-image: url(https://images.pexels.com/photos/4348073/pexels-photo-4348073.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    
+}
+
+.gradient {
+    background-color: rgba(0, 0, 0, 0.55);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.image h1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.products {
+    padding-top: 30px;
+    margin: 30px;
+    border-top: #d4a0a7 1px solid;
+}

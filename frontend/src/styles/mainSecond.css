@@ -1,0 +1,52 @@
+.mainTwo {
+    background-image: linear-gradient( to bottom right, #d4a0a7, #564154);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    border-bottom:#d4a0a7 10px solid
+}
+
+.mainTwo .imageOne img {
+    height: 150%;
+    width: 150%;
+}
+.mainTwo .imageTwo {
+    height: 35%;
+    width: 35%;
+}
+.mainTwo article {
+    margin: 20px;
+}
+.mainTwo article h1 {
+    font-size: xx-large;
+    font-family: monospace;
+    font-weight: bold;
+    color: #230c0f;
+    margin-bottom: 10px;
+}
+.mainTwo article p {
+    font-size: large;
+    font-family: monospace;
+    color: aliceblue;
+}
+
+.mainTwoBtn{
+    background-color: rgba(137, 43, 226, 0.7);
+    height: 60px;
+    width: 230px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: x-large;
+    border: rgb(30, 10, 48) solid 0.5px;
+    color: white;
+    margin-top: 50px;
+    
+}
+
+.mainTwoBtn:hover {
+    background-color: #d0f0b170;
+}

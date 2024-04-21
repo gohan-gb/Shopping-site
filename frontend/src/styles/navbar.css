@@ -1,0 +1,99 @@
+div nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, #d1f0b1, #d4a0a7);
+    padding: 30px;
+    width: 100%;
+    border-bottom: #d4a0a7 solid 10px;
+}
+
+nav .logo {
+    font-family: "Truculenta", sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: #d4a0a7;
+    border-radius: 5px;
+    padding: 5px;
+}
+nav .logo:hover{
+    cursor: pointer;
+}
+
+/* .home-logo {
+    height: 30px;
+    width: 30px;
+}
+
+.home-logo:hover {
+    cursor: pointer;
+} */
+
+.btn{
+    margin: 10px;
+    font-size: 18px;
+    background-color: rgb(0, 46, 84);
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 5px;
+}
+.btn:hover {
+    background-color: aliceblue;
+    color: brown;
+}
+
+/* .btn {
+    border: black solid 0.25px;
+    border-radius: 10%;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: 800;
+    font-family: monospace;
+    font-size: large;
+} */
+
+/* .login {
+    background-color: #14342b;
+}
+
+.signup {
+    background-color: #230c0f;
+}
+
+.login:hover {
+    background-color: #d1f0b1;
+    color: #14342b;
+    font-weight: 1000;
+}
+
+.signup:hover {
+    background-color: #d4a0a7;
+    color: #230c0f;
+    font-weight: 1000;
+} */
+
+div nav section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div nav .secOne {
+    margin-left: 30px;
+}
+
+div nav section p {
+    margin-right: 30px;
+    font-weight: 800;
+    font-family: monospace;
+    font-size: x-large;
+    text-align: center;
+    padding: 5px;
+}
+div nav section p:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: #14342b;
+    cursor: pointer;
+}

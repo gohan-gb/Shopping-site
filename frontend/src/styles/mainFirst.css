@@ -1,0 +1,60 @@
+
+.mainOne {
+    background-image: url(../assets/art.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom:  #d1f0b1 solid 10px;
+}
+
+.mainOne div {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.mainOne section {
+    margin-top: 250px;
+    margin-bottom: 150px;
+}
+
+.mainOne section p {
+    margin: 30px;
+}
+
+.mainFirstPOne {
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 1000;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.mainFirstPTwo {
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 800;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.mainFirstBtn{
+    background-color: rgba(137, 43, 226, 0.7);
+    height: 60px;
+    width: 230px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: x-large;
+    border: rgb(30, 10, 48) solid 0.5px;
+    color: white;
+}
+
+.mainFirstBtn:hover {
+    background-color: #d0f0b170;
+}
